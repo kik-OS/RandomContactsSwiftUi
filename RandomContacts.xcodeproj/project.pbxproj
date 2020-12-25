@@ -16,6 +16,7 @@
 		E4926E542595069D0083A53E /* ListOfContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4926E532595069D0083A53E /* ListOfContacts.swift */; };
 		E4926E57259507D80083A53E /* ListOfContactsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4926E56259507D80083A53E /* ListOfContactsDetail.swift */; };
 		E4926E5A25950D2F0083A53E /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4926E5925950D2F0083A53E /* ContactDetail.swift */; };
+		E4926E612595B4070083A53E /* PersonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4926E602595B4070083A53E /* PersonCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E4926E532595069D0083A53E /* ListOfContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfContacts.swift; sourceTree = "<group>"; };
 		E4926E56259507D80083A53E /* ListOfContactsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfContactsDetail.swift; sourceTree = "<group>"; };
 		E4926E5925950D2F0083A53E /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
+		E4926E602595B4070083A53E /* PersonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E4926E3E259502540083A53E /* ContentView.swift */,
 				E4926E532595069D0083A53E /* ListOfContacts.swift */,
 				E4926E5925950D2F0083A53E /* ContactDetail.swift */,
+				E4926E602595B4070083A53E /* PersonCard.swift */,
 				E4926E56259507D80083A53E /* ListOfContactsDetail.swift */,
 				E4926E4C2595029C0083A53E /* Person.swift */,
 				E4926E4F259502A70083A53E /* DataManager.swift */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4926E612595B4070083A53E /* PersonCard.swift in Sources */,
 				E4926E5A25950D2F0083A53E /* ContactDetail.swift in Sources */,
 				E4926E57259507D80083A53E /* ListOfContactsDetail.swift in Sources */,
 				E4926E542595069D0083A53E /* ListOfContacts.swift in Sources */,

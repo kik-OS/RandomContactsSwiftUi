@@ -12,28 +12,14 @@ struct ContactDetail: View {
     let contact: Person
     
     var body: some View {
-        VStack {
-            List {
-                
-                HStack {
-                    Spacer()
-                    Image(systemName: "person.fill")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                    Spacer()
-                }
-                HStack {
-                    Image(systemName: "phone.fill")
-                        .foregroundColor(.blue)
-                    Text(contact.phoneNumber)
-                }
-                HStack {
-                    Image(systemName: "mail")
-                        .foregroundColor(.blue)
-                    Text(contact.email)
-                }
-                
-            }.padding(.top)
+        
+        ZStack {
+            Color(#colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1))
+            VStack {
+                PersonCard(contact: contact)
+                    .padding()
+                Spacer()
+            }
         }.navigationBarTitle("\(contact.fullName)")
     }
 }
